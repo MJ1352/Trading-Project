@@ -1,0 +1,89 @@
+I'm a chemical engineering student but I came across a winter internship for a trading company. 
+I've got an interest in programming (python & matlab) but I don't really know anything about trading yet.
+So in this repository I will detail my learnings. 
+I'm a beginner in this space so keen to hear any knowledge or experience you may have
+Im hoping the skills I've gained in Chem Eng will be somewhat helpful but theres still a Huge learning curve
+
+Topics quoted in Job summary and the focus of research/projects
+Derivative Pricing
+Quantitative Finance Methods
+Competitive Markets
+Designing and analysing algorithms
+Understanding Financial Markets Structure
+Development of quantitative trading strategies
+Options pricing theory
+probability theory
+
+Key Skills
+Evolution and Implementation of firms trading strategies
+Analysis of big data - financial and price information
+Development and Optimisation of algorithms
+Debugging/maintanence
+
+Advantages
+Excellent Programming Skills
+Numerical solution techniques
+signal processing
+machine learning
+Stochastic processes
+
+
+
+
+Research
+Options Pricing Theory
+
+From the Very basics whats an option?
+In finance, an option is a contract which gives the buyer (the owner or holder of the option) the right, but not the obligation, 
+to buy or sell an underlying asset or instrument at a specified strike price prior to or on a specified date, depending on the 
+form of the option.
+
+-So an option price is the contract price of a stock or other asset at a specific time
+
+Ok, what determines the price/value of an option?
+
+The Price of an option has two components
+Intrinsic Value - Difference between underlying spot price (current price) and the strike price
+Time value - Always greater than intrinsic value, with extra money to compensate for risk seller is taking
+
+PRICING MODELS
+BLACK SCHOLES
+PDE - widely used though often with adjustments surely it can't be as bad as navier stokes
+
+The key idea is to hedge so as to eliminate risk
+"Continuously revised delta hedging'
+
+Has one parameter - easy!
+ that cannot be directly observed: The average future volatility - not so easy
+ 
+ The option value is increasing in this parameter, it can be inverted to produce a volatility surface - used for model calibration
+ 
+ Assumptions
+ -Market has at least 1 risky asset and 1 riskless asset
+ -Riskless rate is constant
+ -Instantaneous log return us random walk with drift - geometric Brownian motion, assume its drift & volatility const
+ -Stock doesnt pay dividend
+ 
+ Market assumptions
+ -No arbitrage
+ -borrow and lend any amounts at riskless rate
+ -buy and sell any amount
+ -no transaction fees
+
+Formula
+{\frac {\partial V}{\partial t}}+{\frac {1}{2}}\sigma ^{2}S^{2}{\frac {\partial ^{2}V}{\partial S^{2}}}+rS{\frac {\partial V}{\partial S}}-rV=0
+ 
+ 
+ 
+ 
+ 
+ 
+ https://github.com/datasciencemasters/go#the-open-source-data-science-masters
+ 
+ https://www.youtube.com/watch?v=kUZ6mH1_v0U&list=PLfF9FGsj0cVQuQUd0RIt0S41UeJFjAPiZ
+ 
+ 
+ 
+ 
+ 
+ 
